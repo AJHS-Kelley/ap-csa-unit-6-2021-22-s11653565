@@ -1,4 +1,4 @@
-// Mauricio Salmoran, Arrays practice, v0.3, 01/24/22
+// Mauricio Salmoran, Arrays practice, v0.35, 01/24/22
 
 // Stantons Way =
 /* public class JacksonStanton00 { 
@@ -36,6 +36,10 @@ public class JacksonStanton00 {
     }
 */
         String[] carArr = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"}; 
+        System.out.println(carArr[3]); 
+        // ONCE CREATED YOU CANNOT CHANGE THE SIZE OF AN ARRAY. IT IS FORBIDDEN! 
+        carArr[0] = "Volkswagen Passat"; 
+        
         for (String eachElement : carArr ) {
             // Code to execute. 
             System.out.println(eachElement); 
