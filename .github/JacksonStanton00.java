@@ -1,4 +1,4 @@
-// Mauricio Salmoran, Arrays practice, v0.2, 01/24/22
+// Mauricio Salmoran, Arrays practice, v0.22, 01/24/22
 
 // Stantons Way =
 /* public class JacksonStanton00 { 
@@ -19,6 +19,14 @@ public class JacksonStanton00 {
         String[] carArr = {"BMW M5", "Ferrari 250 GTO", "Porsche 911", "Ford F150 Lightning", "Buick Skylark"}; 
         int[] myGrades = {100, 25, 15, -3, 0, 75, 35};
         double[] myBankAccount = {0.0, -1.25, 3.75, 456.99, 25.25, 12.123456, 3.14};
+
+        for (statement1; statement2; statement3;) {
+            // code to execute
+            // Statement 1 is executed ONCE BEFORE THE LOOP.
+            // Statement 2 is the Conditional for the loop.
+            // Statement 3 is executed EACH TIME THE LOOP RUNS. 
+
+        }
 
     }
 
