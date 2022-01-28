@@ -1,4 +1,4 @@
-// Mauricio Salmoran, Arrays practice, v0.35, 01/24/22
+// Mauricio Salmoran, Arrays practice, v0.4, 01/28/22
 
 // Stantons Way =
 /* public class JacksonStanton00 { 
@@ -52,7 +52,19 @@ public class JacksonStanton00 {
 
 
 
+        // 2D Arrays
 
+        
+        int[][] twoDIntArr = {{4, -1, 2, 5},{8, 9, 17, -5}};
+
+        System.out.println(twoDIntArr[0][2]); 
+        System.out.println(twoDIntArr[1][3]); 
+
+        for (int i = 0; i < twoDIntArr.length; ++i ) {
+            for (int j = 0; j < twoDIntArr[i].length; ++) { 
+                System.out.println(twoDIntArr[i][j]); 
+            }
+        }
 
 
 
